@@ -86,7 +86,7 @@ fn from_extension(extension: &OsStr) -> Option<Language> {
         "cjs" | "js" | "mjs" => Some(JavaScript),
         "jsx" => Some(Jsx),
         "json" => Some(Json),
-        "lisp" | "lsp" | "asd" => Some(CommonLisp),
+        "lisp" | "lsp" | "asd" | "kicad_mod" | "kicad_pcb" | "kicad_sch" | "kicad_sym" => Some(CommonLisp),
         "ml" => Some(OCaml),
         "mli" => Some(OCamlInterface),
         "py" | "py3" | "pyi" | "bzl" => Some(Python),
